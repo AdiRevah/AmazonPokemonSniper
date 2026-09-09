@@ -1,0 +1,56 @@
+# Python environments and generated code
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local settings and authentication state
+settings.json
+settings*.json*
+.env
+.env.*
+!.env.example
+chrome-profile/
+chrome-profile*/
+AmazonPokemonSniper/chrome-profile/
+*storage_state*.json
+*cookies*.json
+*credentials*.json
+*.pem
+*.key
+
+# Logs, debugging output and account screenshots
+*.log
+*.log.*
+logs/
+screenshots/
+traces/
+playwright-report/
+test-results/
+
+# Bundled executables and dependencies
+_internal/
+build/
+dist/
+*.exe
+*.app/
+*.dmg
+*.zip
+*.tar.gz
+
+# Generated local analysis
+graphify-out/
+graphify-source-scope/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
